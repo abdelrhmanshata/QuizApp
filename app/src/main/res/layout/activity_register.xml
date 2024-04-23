@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    tools:context=".Activity.Auth.RegisterActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/ic_wave"
+        android:importantForAccessibility="no" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/create_account"
+            android:textColor="@color/mainColor"
+            android:textSize="@dimen/_25sdp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/border_btn_auth"
+            android:orientation="horizontal"
+            android:padding="@dimen/_12sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/type_of_user"
+                android:textColor="@color/mainColor"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/userTypeSpinner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:importantForAccessibility="no"
+                android:src="@drawable/down"
+                app:tint="@color/mainColor" />
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/inputFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/border_btn_auth"
+            android:drawableStart="@drawable/ic_user"
+            android:drawablePadding="@dimen/_8sdp"
+            android:hint="@string/full_name"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:padding="@dimen/_12sdp" />
+
+        <EditText
+            android:id="@+id/inputEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/border_btn_auth"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="@dimen/_8sdp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/_12sdp" />
+
+        <EditText
+            android:id="@+id/inputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/border_btn_auth"
+            android:drawableStart="@drawable/ic_password"
+            android:drawablePadding="@dimen/_8sdp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="@dimen/_12sdp"
+            android:textAlignment="textStart" />
+
+
+        <LinearLayout
+            android:id="@+id/academicYearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/border_btn_auth"
+            android:orientation="horizontal"
+            android:padding="@dimen/_12sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/academic_year"
+                android:textColor="@color/mainColor"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/academicYearSpinner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:importantForAccessibility="no"
+                android:src="@drawable/down"
+                app:tint="@color/mainColor" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressCircular"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:layout_marginVertical="@dimen/_4sdp"
+            android:indeterminateDrawable="@drawable/progress"
+            android:visibility="invisible"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_border_btn_auth"
+            android:padding="@dimen/_12sdp"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            app:backgroundTint="@null" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/already_have_an_account"
+                android:textSize="@dimen/_12ssp" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_8sdp"
+                android:background="@android:color/transparent"
+                android:text="@string/login"
+                android:textColor="@color/mainColor"
+                android:textSize="@dimen/_12ssp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ic_wave_2"
+        android:importantForAccessibility="no" />
+</RelativeLayout>

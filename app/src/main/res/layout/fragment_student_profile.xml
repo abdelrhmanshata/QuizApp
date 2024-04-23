@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    tools:context=".Activity.UI.Student.Fragment.StudentProfileFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/ic_wave"
+            android:importantForAccessibility="no"
+            android:scaleX="1"
+            android:scaleY="1" />
+
+        <ImageView
+            android:id="@+id/logout"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/logout" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/user_profile"
+                android:textColor="@color/mainColor"
+                android:textSize="@dimen/_25sdp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/inputFullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/border_btn_auth"
+                android:drawableStart="@drawable/ic_user"
+                android:drawablePadding="@dimen/_8sdp"
+                android:hint="@string/full_name"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:padding="@dimen/_12sdp" />
+
+            <EditText
+                android:id="@+id/inputEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/border_btn_auth"
+                android:drawableStart="@drawable/ic_email"
+                android:drawablePadding="@dimen/_8sdp"
+                android:enabled="false"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/_12sdp" />
+
+            <LinearLayout
+                android:id="@+id/academicYearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/border_btn_auth"
+                android:orientation="horizontal"
+                android:padding="@dimen/_12sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/academic_year"
+                    android:textColor="@color/mainColor"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/academicYearSpinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/down"
+                    app:tint="@color/mainColor" />
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progressCircle"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="@dimen/_8sdp"
+                android:indeterminateDrawable="@drawable/progress"
+                android:visibility="invisible"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/saveBtn"
+                android:layout_width="@dimen/_180sdp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_border_btn_auth"
+                android:padding="@dimen/_12sdp"
+                android:text="@string/save"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                app:backgroundTint="@null" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password\n</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="new_user">New User?</string>
+    <string name="register_now">Register Now</string>
+    <string name="welcome">Welcome</string>
+    <string name="create_account">Create Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already Have an Account?</string>
+    <string name="type_of_user">Type of User</string>
+    <string name="academic_year">Academic Year</string>
+    <string name="fullNameIsRequired">Full Name is required !</string>
+    <string name="emailIsRequired">Email is required !</string>
+    <string name="please_enter_valid_email">Please enter valid email !</string>
+    <string name="passwordIsRequired">Password is  required !</string>
+    <string name="minimumLength">Minimum Password Length 8</string>
+    <string name="AlreadyRegistered">This account is already registered</string>
+    <string name="noConnection">No Connection</string>
+    <string name="successRegistered">Successfully Registered</string>
+    <string name="successLogin">Successfully Login</string>
+    <string name="userNotFound">This user not found !!!</string>
+    <string name="passwordIncorrect">Password incorrect !!!</string>
+    <string name="home">Home</string>
+    <string name="exams">Exams</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_profile">User Profile</string>
+    <string name="save">Save</string>
+    <string name="update_successfully">Update Successfully</string>
+    <string name="logout">Logout</string>
+    <string name="we_just_need_your_registered_email_address_to_send_you_your_password_reset">We just need your registered email address to send you your password reset</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="don_t_have_an_account">Don\'t Have an Account?</string>
+    <string name="reset_password_link_sent_to_your_email">Reset Password Link Sent to Your Email</string>
+
+    <string name="add_quiz">Add Quiz</string>
+    <string name="edit_quiz">Edit Quiz</string>
+    <string name="add_a_question_here">Add a Question Here !</string>
+    <string name="choice_1">Choice 1</string>
+    <string name="choice_2">Choice 2</string>
+    <string name="choice_3">Choice 3</string>
+    <string name="choice_4">Choice 4</string>
+    <string name="choose_the_answer">Choose The Answer</string>
+    <string name="add_question">Add Question</string>
+    <string name="quizTitle">Quiz Title</string>
+    <string name="quizDegree">Quiz Degree</string>
+
+    <string name="enter_question">Please Enter The Question</string>
+    <string name="enter_choice_1">Please Enter The Choice 1</string>
+    <string name="enter_choice_2">Please Enter The Choice 2</string>
+    <string name="enter_choice_3">Please Enter The Choice 3</string>
+    <string name="enter_choice_4">Please Enter The Choice 4</string>
+    <string name="add_question_successfully">Add Question Successfully</string>
+    <string name="choose_the_answer_number">Choose The Answer Number</string>
+    <string name="msg_add_quiz">There are no Questions for this Quiz?</string>
+    <string name="msg_quiz_saved">The Quiz was saved successfully</string>
+    <string name="are_your_sure_delete">Are Your Sure Delete ?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="delete">Deleted Done</string>
+
+    <string name="the_previous">Previous</string>
+    <string name="the_next">Next</string>
+    <string name="save_question">Save Question</string>
+    <string name="your_score_in_the_quiz">Your Score In The Quiz</string>
+    <string name="ok">OK</string>
+
+
+    <string name="subject_title">Subject Title</string>
+    <string name="quiz_title">Quiz Title</string>
+    <string name="quiz_degree">Quiz Degree</string>
+    <string name="quiz_date">Quiz Date</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="quiz">Quiz</string>
+    <string name="questions">Questions</string>
+    <string name="student_name">Student Name</string>
+    <string name="student_degree">Student Degree</string>
+    <string name="number_of_student">Number of Student</string>
+    <string name="date">Date</string>
+    <string name="pending">Pending</string>
+    <string name="done">Done</string>
+    <string name="subject_title_is_required">Subject Title is required !</string>
+    <string name="quiz_title_is_required">Quiz Title is required !</string>
+    <string name="quiz_degree_is_required">Quiz Degree is required !</string>
+    <string name="quiz_date_is_required">Quiz Date is required !</string>
+    <string name="quiz_start_time_is_required">Quiz Start Time is required !</string>
+    <string name="quiz_end_time_is_required">Quiz End Time is required !</string>
+    <string name="press_back_again_to_exit">Press back again to exit</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="this_is_final_question">This is Final Question !</string>
+    <string name="this_is_first_question">This is First Question !</string>
+    <string name="you_have_tried_the_test_before">You have tried the test before?</string>
+
+
+</resources>
